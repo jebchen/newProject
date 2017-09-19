@@ -1,3 +1,31 @@
 asfasfasdf
 ahjksdfaslkfjhajsdhkfsfsajk
 asdjfkhasdlfjhk
+The RPS API V1
+http://rps.morningstar.com
+
+
+The RPS API V2
+http://rps.morningstar.com/api/v2/2012208149/securities/
+
+
+RptData/GlobalFund/AnalystNotesDoc
+
+
+The URL for Report Containing RPS API
+
+http://localhost:8080/PDF-Wbss
+
+http://localhost:8080/PDF-Wbss/globalfund?productid=pdfengine&useCache=no&secid=F00000TGLJ&langid=en-AU&pagestyle=A4&isCheckSecid=no
+
+http://localhost:8080/PDF-Wbss/globalfund?productid=pdfengine&useCache=no&secid=F00000TGLJ&langid=en-US&pagestyle=A4&isCheckSecid=no
+
+http://localhost:8080/PDF-Wbss/globalfund?productid=AWS&secid=F0GBR04C3V&langid=en-GB&pagestyle=A4
+
+
+
+http://rps.morningstar.com/api/v2/2012208149/Securities/F0GBR04C3V/documents?statuses=archived,live&fields=*
+
+udeploy genkins splunk
+
+https://msjira.morningstar.com/browse/AWSE-20846
